@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem Card</title>
+    <link rel="stylesheet" href="redeem.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+</head>
+<body><br/><br/><br/><br/>
+    <div class="gift-card">
+        <div class="gifts">
+    <h1 style="font-size: 90;">Enjoy the Gift of<br/> Effortless Meals</h1>
+    <h3>Get started to redeem your gift card.</h3>
+    <input class="gift" type="email" placeholder="Enter Your Email Id"><br/><br/>
+    <input class="gift" type="number" placeholder="Enter Your Zip Code"><br/><br/>
+    <button class="redeem" onclick="redeem()">Redeem Now</button>
+</div>
+<div class="card">
+<img src="./eating.food.jpg" alt="">
+</div><br/><br/>
+</div>
+</body>
+</html>
+<script>
+    function redeem(){
+        window.location.href = "./zipcode.html";
+    }
+</script>

@@ -1,0 +1,40 @@
+.header img{
+    height: 60px; 
+    margin: auto;
+}
+.header{
+    border: 2px solid #47c00b;
+    background-color: #47c00b;
+    color: white;
+    display: flex;
+}
+.cart img{
+    background-color: green;
+    position: absolute;
+    left: 1200px;
+    cursor: pointer;
+}
+.main {
+    background-image: url("./pizz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+.border{
+    border: 2px solid white;
+    background-color: white;
+    width: 450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.main button{
+    text-align: center;
+}
+.gift{
+    border: 2px solid #47c00b;
+    background-color: #47c00b;
+    text-align: center;
+    width: 450px;
+    cursor: pointer;
+}

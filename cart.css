@@ -1,0 +1,80 @@
+
+   
+    h4 {
+        height: 20px;
+        margin-top: -6px;
+      }
+      
+      
+    #selec {
+      margin-top: 35px;
+    }
+    span {
+      margin-top: 20px;
+      margin-left: 500px;
+      margin-right: 10px;
+    }
+    #BIG {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(1, fr);
+      width: 98%;
+      margin-left: 20px;
+      gap: 10px;
+      margin-top: 70px;
+    }
+    #BIG > div {
+      width: 290px;
+      height: 400px;
+    }
+    #avatar{
+      width: 287px;
+      height: 290.83px;
+      margin-bottom: 16px;
+      border-radius: 16px;
+      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
+        margin-bottom: 16px;
+        border-radius: 16px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        -webkit-box-direction: normal;
+    }
+    /* cartpage css */
+    #cartPage{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+    }
+    #cart{
+      color:white;
+     background-color: #3167ff;
+      border-radius:25px;
+      width:12%;
+      height: 8%;
+       margin-left: 250px;
+       border: none;
+       font-weight: 600px;
+       font-size: 25px;
+    }
+    #make{
+        background-color: #3167ff;
+        color: white;
+        text-align: center;
+        border: none; 
+      width: 100px;
+      height: 40px;
+      margin-top: 80px;
+      margin-left: 20px;
+    }
+    /* cartPage css end */
+  span{
+    margin-left: 0px;
+    padding: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+  }  
+   

@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Favoritfreshly' sans-serif;
+}
+nav{
+    background: #fff;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 0  100px;
+font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active, a:hover{
+    background-color: #1b9bff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.log{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #checked:checked ~ ul{
+        left: 0;
+    }
+}
+#logo{
+    height: 28px;
+    position: absolute;
+    top: 23px;
+}
+#sign{
+    background-color: #1b9bff;
+    color: white;
+}
+.banner{
+    height: 600px;
+    width: 700px;
+}
+#banner{
+    display: flex;
+}
+.text{
+    background-color: #85e5c6;
+}
+.text h1{
+    font: 75px "Favoritfreshly";
+    max-width: 535px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.explore{
+    color: #4d9bff;
+    border: 2px solid #4d9bff;
+    background-color: #fff;
+    font-size: 16px;
+    margin-bottom: -19px;
+    padding: 8px 15px;
+    transition-duration: 0.4s;
+    text-align: center;
+    box-sizing: border-box;
+    width: 157px;
+    height: 40px;
+    top: 550px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero{
+    font-size: 30px;
+    margin-bottom: 24px;
+    text-align: left;
+    color: #303030;
+    font-family: "Favoritfreshly";
+    font-weight: bold;
+}
+.zip{
+    position: absolute;
+    bottom: 30px;
+}
+.text label{
+    color: #303030;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700
+}
+.text input{
+    background-color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    height: 40px;
+    width: 248px;
+}
+.started{
+    color: #ffff;
+    border: 2px solid #4d9bff;
+    background-color: #4d9bff;
+    font-size: 16px;
+    margin-bottom: -19px;
+    padding: 8px 15px;
+    transition-duration: 0.4s;
+    text-align: center;
+    box-sizing: border-box;
+    width: 157px;
+    height: 40px;
+    top: 550px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text{
+    width: 900px;
+}
+.works img{
+    height: 292px;
+}
+.works{
+    background-color: #fef9eb;
+}
+.menu{
+    background-image: url('./menu.jpg');
+    background-size: cover;
+    height: 900px;
+    margin-bottom: 40px;
+}
+.border{
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+}
+.border h1{
+    font-weight: bold;
+}
+.border p{
+    font-size: 23px;
+    text-align: center;
+}
+.asset{
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.heading:hover{
+    color: #75a8bc;
+    cursor: pointer;
+}
+.heading{
+    text-align: left;
+    cursor: pointer;
+}
+.free{
+    position: absolute;
+    left: 500px;
+    top: 296px;
+    cursor: pointer;
+}
+.steak{
+position: absolute;
+right: 500px;
+bottom: 45px;
+cursor: pointer;
+}
+.assets{
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.plan{
+    cursor: pointer;
+    color: white;
+    background-color: #3167ff;
+    border: 2px solid #3167ff;
+    font-size: 20px;
+    width: 800px;
+}
+.assetss{
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.assetsss{
+    height: 150px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+}

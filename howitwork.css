@@ -1,0 +1,89 @@
+#iframe-container {
+    width: 60%;
+    justify-content: center;
+    height: 380px;
+    padding: 40px 32px;
+    margin-left: 5%;
+}
+
+body {
+    text-align: center;
+}
+
+.learn {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: 2px solid blue;
+    padding: 13px 16px 12px;
+}
+
+.food-image-1 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+    margin: 25px 180px;
+    box-sizing: border-box;
+
+}
+
+.food-image-1-img>img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.food-image-1-content {
+    /* padding: 32px 0px 32px 32px; */
+    margin: 50px 20px;
+}
+
+.food-image-1-content>h1 {
+    text-align: left;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.food-image-1-content>p {
+    text-align: left;
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    color: #333333;
+    margin: 0px 0px 8px 0px;
+}
+
+.PlanMs {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 2450px;
+    left: 500px;
+}
+
+.assets {
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.More {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: 2px solid blue;
+    padding: 13px 16px 12px;
+}
+
+.Started {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: 2px solid blue;
+    padding: 13px 16px 12px;
+}

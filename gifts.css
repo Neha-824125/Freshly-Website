@@ -1,0 +1,60 @@
+
+.border{
+    background-image: url("./pizz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.borders{
+    border: 2px solid white;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    justify-content: center;
+    margin: auto;
+}
+.borders {
+    text-align: center;
+    justify-content: center;
+}
+.slider{
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 300px;
+}
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+.slider .previous, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.previous{
+    position: absolute;
+    right: 500px;
+}
+.butt button{
+    border: 2px solid #02514e;
+    background-color: #02514e;
+    width: 500px;
+    height: 050px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshly Gift Cards</title>
+    <link rel="stylesheet" href="./gifts.css">
+    
+</head>
+<body>
+    <div class="border"><br/><br/><br/><br/>
+        <div class="borders">
+            <h1>Select a Design
+            </h1>
+            <div class="slider">
+  
+                <!-- Первый слайд -->
+                <div class="item">
+                    <img src="fres..jpg">
+                </div>
+              
+                <!-- Второй слайд -->
+                <div class="item">
+                    <img src="./fresh.jpg">
+                </div>
+              
+                <!-- Третий слайд -->
+                <div class="item">
+                    <img src="./freshl.jpg">
+                </div>
+              
+                <!-- Кнопки-стрелочки -->
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div><br/>
+            <div class="butt">
+                <button onclick="cont()">Continue</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+
+function nextSlide() {
+    showSlides(slideIndex += 1);
+}
+
+function previousSlide() {
+    showSlides(slideIndex -= 1);  
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("item");
+    
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+  
+    for (let slide of slides) {
+        slide.style.display = "none";
+    }   
+    slides[slideIndex - 1].style.display = "block"; 
+}
+function cont(){
+    window.location.href = "./price.html";
+}
+</script>

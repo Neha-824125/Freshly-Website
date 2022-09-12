@@ -1,0 +1,15 @@
+.border{
+    background-image: url("./pizz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.borders{
+    border: 2px solid white;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}

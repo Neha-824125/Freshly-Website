@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+                </label>
+        <img id="logo" src="data:image/png;base64,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"/>
+        <ul>
+            <li><a class="active" href="plansandMenu.html">Plans & Menu</a></li>
+            <li><a href="howitswork.html">How it Works</a></li>
+            <li><a href="giftcard.html">Gifts</a></li>
+            <li><a href="helppage.html">Help</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="./signup.html" id="sign">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div id="banner">
+        <div class="img">
+        <img src="./banner.jpg" alt="" class="banner">
+    </div>
+    <div class="text">
+        <h1>Balanced<br/> meals for busy<br/> lives.</h1>
+        <button class="explore">Explore Meals</button><br/><br/><br/>
+        <p class="hero">See meals availabel in your area!</p><br/>
+        <label>Email Address</label><br/>
+        <input type="email" placeholder="freshly@freshly.com"/>
+        <label class="zip">ZIP Code</label>
+        <input type="number" placeholder="11111"/><br/><br/>
+        <button class="started">Get Started</button><br/><br/>
+    </div>
+</div><br/><br/>
+
+<div class="works">
+    <h1 style="text-align:center; font-size: 48px; margin-bottom: 32px;">How it works</h1><br/>
+    <img src="./works.png"/>
+</div>
+<div class="menu">
+    <div class="border">
+        <h1>On the menu</h1><br/>
+        <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-<br/>prepared meals are delivered fresh, and ready to eat in 3 minutes.</p><br/><br/>
+        <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg" alt="" class="asset"/>
+        <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/630b0be4457dd67561c98a9e_production-meal-image-1d053d43-fedb-4c71-93e4-615f29442853.jpeg" alt="" class="asset">
+        <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/62809ed29666d0adc9cdc607_production-meal-image-aa45ad57-f3bd-41bf-b74b-7906066bdd24.jpeg" alt="" class="asset">
+        <p class="heading" style="font-size: 15px;">Hearty Veggie Bolognese</p>
+        <p style="font-size: 15px; color: #75a8bc;">490 Cal | Gluten Free |<br/> Single-Serve</p>
+        <div class="free">
+        <p class="heading" style="font-size: 15px;">Cuban Mojo Shrimp</p>
+        <p style="font-size: 15px; color: #75a8bc;">410 Cal | Gluten Free |<br/> Single-Serve</p>
+        </div>
+        <div class="steak">
+        <p class="heading" style="font-size: 15px;">Steak Peppercorn</p>
+        <p style="font-size: 15px; color: #75a8bc;">500 Cal | Gluten Free |<br/> Single-Serve</p>
+    </div><br/>
+    <button class="plan" onclick="plans()">View Plans & Menu</button>
+    </div>
+</div>
+</div>
+</body>
+</html>
+<script>
+    function plans(){
+        window.location.href = "./plansandMenu.html";
+    }
+</script>

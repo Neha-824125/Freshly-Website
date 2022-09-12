@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshly Gift Card</title>
+    <link rel="stylesheet" href="./gift.css">
+</head>
+<body>
+    <div class="header">
+        <div class="img">
+        <img src="https://s3static.cashstar.com/media/images/FRESHLY/FRESHLY.png" alt="">
+        </div>
+        <div class="cart">
+            <img src="./cart.png" alt="" >
+        </div>
+    </div>
+
+        <div class="main"><br/><br/><br/><br/>
+            <div class="border">
+                <p style="text-align:center;">All fields are required, unless they are marked optional.</p><br/><br/>
+               <label>Their Name</label><br/><br/>
+               <input type="text" style="width: 400px; height: 28px;"><br/><br/>
+               <label>Your Name</label><br/><br/>
+                <input type="text" style="width: 400px; height: 28px;"><br/><br/>
+                <button class="gift" onclick="gift()">Send An e-Gift Card</button>
+            </div>
+        </div>
+</body>
+</html>
+<script>
+    function gift() {
+        window.location.href = "./gifts.html";
+    }
+</script>

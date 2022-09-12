@@ -1,0 +1,24 @@
+.refer img{
+    width: 700px;
+}
+.refer-earn{
+    display: flex;
+    margin: auto;
+}
+.earn img{
+    width: 500px;
+}
+.email{
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    gap: 30px;
+    justify-content: center;
+    margin: auto;
+}
+.enter button{
+    border-radius: 10px;
+    border: 2px solid green;
+}
